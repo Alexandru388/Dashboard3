@@ -1,0 +1,771 @@
+.top-bar {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  background-color: #a167b3;
+  justify-content: space-between;
+  height: auto;
+}
+
+.menu .btn {
+  background-color: #a167b3;
+  /* Blue background */
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  padding: 17px 15px;
+  /* Some padding */
+  font-size: 16px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+}
+.menu .btn:active {
+  color: black;
+}
+
+.dashboard-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.shop-name p {
+  color: #ffffff;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
+.pad {
+  margin: 0;
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color: #a167b3;
+}
+
+.top-button {
+  height: 100%;
+}
+
+.top-button button {
+  display: inline-flex;
+  padding: 0;
+  background: #a167b3;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.top-button button .badge {
+  color: white;
+  background-color: black;
+  padding: 2px 5px;
+}
+.top-button .button__text,
+.top-button .button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 15px;
+  height: 100%;
+}
+.top-button .button:hover {
+  background-color: transparent;
+}
+.top-button .button:active {
+  color: black;
+  background-color: transparent;
+}
+
+.pad {
+  margin: 0;
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color: #a167b3;
+}
+.pad .sub-top {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  background-color: #a167b3;
+  justify-content: space-between;
+  height: auto;
+}
+.pad .sub-top .side-buttons {
+  padding: 0;
+  background: #a167b3;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+}
+.pad .sub-top .side-buttons .side-buttons__text {
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.pad .sub-top .side-buttons:active {
+  color: black;
+}
+.pad .sub-top .position {
+  transform: rotate(-90deg);
+  padding-top: 290px;
+}
+.pad .sub-top .position2 {
+  transform: rotate(90deg);
+  padding-top: 350px;
+}
+.pad .got-no-string {
+  padding: 100px 100px 100px 0px;
+  width: 50%;
+}
+.pad .got-no-string h1 {
+  color: #fff;
+  background-color: black;
+  font-size: 15px;
+  text-align: left;
+  width: 16%;
+}
+.pad .got-no-string h2 {
+  color: #fff;
+  font-weight: 1000;
+  font-size: 50px;
+  padding: 10px 0px 15px 0px;
+}
+.pad .got-no-string p {
+  color: #fff;
+  text-align: left;
+  padding: 10px 0px 30px 0px;
+}
+.pad .got-no-string .but-show {
+  display: flex;
+  padding: 10px 0px 50px 0px;
+}
+.pad .got-no-string .but-item {
+  color: #fff;
+  background: #a167b3;
+  padding: 10px 15px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.pad .got-no-string .but-item:active {
+  color: black;
+}
+.pad .got-no-string .girl-boy {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.pad .got-no-string .boy {
+  position: relative;
+  z-index: 1;
+}
+.pad .got-no-string .girl {
+  position: relative;
+  z-index: 1;
+}
+.pad .got-no-string .play {
+  position: relative;
+  z-index: 2;
+  margin-left: -70%;
+  margin-top: 40px;
+}
+.pad .headphones {
+  width: 50%;
+  text-align: left;
+}
+.pad .headphones .img-head {
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pad .sub-top12 {
+  padding-left: 45%;
+}
+.pad .sub-top12 .numbers {
+  background: #a167b3;
+  color: silver;
+  border: none;
+  font-size: 15px;
+}
+.pad .sub-top12 .numbers:active {
+  color: white;
+  text-decoration: underline;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.pad1 {
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color: white;
+}
+.pad1 .available-colors {
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 150px;
+}
+.pad1 h1 {
+  color: #fff;
+  background-color: black;
+  font-size: 15px;
+  text-align: left;
+  width: 45%;
+}
+.pad1 h2 {
+  color: black;
+  font-weight: 1000;
+  font-size: 40px;
+  padding: 10px 0px 15px 0px;
+}
+.pad1 .butoane-casca {
+  display: flex;
+}
+.pad1 .catalogue {
+  width: 40%;
+  padding-bottom: 40px;
+}
+.pad1 .catalogue .buton-catalogue .full-catalogue {
+  color: black;
+  background: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.pad1 .catalogue .buton-catalogue .full-catalogue:active {
+  color: white;
+}
+.pad1 .colors {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+.pad1 .colors .negru {
+  position: relative;
+  z-index: 2;
+}
+.pad1 .colors .cerc-negru {
+  position: relative;
+  z-index: 1;
+  margin-left: -52%;
+  margin-top: 0px;
+  width: 75px;
+}
+.pad1 .colors .gloss {
+  position: relative;
+  z-index: 1;
+  margin-left: -60%;
+}
+.pad1 .colors .mini-pad {
+  padding: 10px;
+}
+.pad1 .colors .rand {
+  display: flex;
+}
+.pad1 .position3 {
+  transform: rotate(-90deg);
+  padding-top: 300px;
+}
+.pad1 .position4 {
+  transform: rotate(90deg);
+  padding-top: 270px;
+}
+.pad1 .side-buttons1 {
+  padding: 0;
+  background: white;
+  border: none;
+  outline: none;
+  color: black;
+  display: flex;
+}
+.pad1 .side-buttons1 .side-buttons1__text {
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.pad1 .side-buttons1:active {
+  color: white;
+}
+.pad1 .but1234 {
+  display: flex;
+  padding-left: 45%;
+}
+.pad1 .but1234 .numbers {
+  background: white;
+  color: silver;
+  border: none;
+  font-size: 15px;
+}
+.pad1 .but1234 .numbers:active {
+  color: black;
+  text-decoration: underline black;
+}
+
+.youtube .nigimg {
+  flex-shrink: 0;
+  min-width: 100%;
+}
+.youtube .nigimg {
+  z-index: 2;
+}
+.youtube .playimg {
+  z-index: 1;
+  padding-left: 45%;
+  position: relative;
+  margin-bottom: -1200px;
+}
+.youtube .blackimg {
+  flex-shrink: 0;
+  min-width: 100%;
+}
+.youtube .ps {
+  display: flex;
+}
+.youtube .slidecontainer {
+  padding-top: 10px;
+}
+.youtube .s1 {
+  background: none;
+  background-color: none;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+.youtube .s1:active {
+  color: black;
+}
+.youtube .videouri {
+  position: absolute;
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  top: 20%;
+  justify-content: space-between;
+  width: 100%;
+}
+.youtube .videoprogres {
+  position: absolute;
+  top: 90%;
+}
+.youtube .bottombar {
+  position: relative;
+}
+.youtube .setari {
+  display: flex;
+  height: 40px;
+  padding-top: 45px;
+}
+.youtube .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.youtube .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+.youtube .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+.youtube .minivid {
+  max-width: 165px;
+  max-height: 100px;
+  flex-shrink: 0;
+  padding: 5px;
+}
+.youtube .p4 {
+  position: relative;
+}
+.youtube .p4 .mo-re {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.youtube .p4 .mo-re:active {
+  color: black;
+}
+
+.pad3 {
+  padding-top: 75px;
+  padding-left: 225px;
+  padding-right: 225px;
+  padding-bottom: 125px;
+}
+.pad3 .ourproducts {
+  justify-content: space-between;
+  display: flex;
+}
+.pad3 .col1 {
+  width: 23%;
+}
+.pad3 .dofbut {
+  border: none;
+  padding: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.pad3 .cascb {
+  border: none;
+  padding: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.pad3 .cascb:active {
+  border: 2px solid blue;
+}
+.pad3 .but2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.pad3 .dofbut:active {
+  color: black;
+}
+.pad3 h1 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.pad3 h2 {
+  font-size: 20px;
+  font-weight: 850;
+}
+.pad3 h3 {
+  padding-left: 25px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-weight: 650;
+  color: gray;
+}
+.pad3 h4 {
+  color: violet;
+  font-size: 18px;
+  font-weight: 750;
+}
+.pad3 h5 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 750;
+  padding-bottom: 5px;
+  color: gray;
+}
+.pad3 p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 750;
+}
+.pad3 .minip {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.pad3 .bonusp {
+  padding-top: 30px;
+}
+.pad3 .cadran {
+  height: 270px;
+  width: 270px;
+}
+.pad3 .description {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 270px;
+}
+.pad3 .cas1 {
+  padding: 15px 5px 15px 5px;
+  height: 270px;
+  width: 270px;
+  background-color: #f4f5f8;
+  text-align: center;
+  justify-content: center;
+}
+.pad3 .casc1 {
+  padding-top: 40px;
+}
+.pad3 .c1_10 {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.pad3 li {
+  padding-left: 25px;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: 850;
+  padding-bottom: 5px;
+  color: gray;
+}
+.pad3 .nothing {
+  padding-bottom: 100px;
+  width: 270px;
+}
+.pad3 .menu2 {
+  padding-left: 180px;
+}
+.pad3 .menu2b {
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  color: gray;
+}
+.pad3 .menu2b:active {
+  color: black;
+}
+.pad3 .price_stele {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.pad3 .checked {
+  color: red;
+}
+.pad3 li:active {
+  color: black;
+}
+.pad3 .pad6 {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.pad3 h6 {
+  font-size: 15px;
+  font-weight: 850;
+}
+.pad3 .b112 {
+  display: flex;
+  padding-left: 45%;
+  padding-top: 10px;
+}
+.pad3 .b12 {
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 760;
+  color: gray;
+}
+.pad3 .b12:active {
+  color: black;
+}
+.pad3 input[type=range] {
+  box-sizing: border-box;
+  appearance: none;
+  width: 150px;
+  margin: 0;
+  padding: 0 2px;
+  /* Add some L/R padding to ensure box shadow of handle is shown */
+  overflow: hidden;
+  border: 0;
+  border-radius: 1px;
+  outline: none;
+  background: linear-gradient(grey, grey) no-repeat center;
+  /* Use a linear gradient to generate only the 2px height background */
+  background-size: 100% 2px;
+  pointer-events: none;
+}
+.pad3 input[type=range]:active, .pad3 input[type=range]:focus {
+  outline: none;
+}
+.pad3 input[type=range]::-webkit-slider-thumb {
+  height: 10px;
+  width: 10px;
+  border-radius: 28px;
+  background-color: #fff;
+  position: relative;
+  margin: 5px 0;
+  /* Add some margin to ensure box shadow is shown */
+  cursor: pointer;
+  appearance: none;
+  pointer-events: all;
+  box-shadow: 0 1px 4px 0.5px rgba(0, 0, 0, 0.25);
+}
+.pad3 input[type=range]::-webkit-slider-thumb::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 100%;
+  width: 2000px;
+  height: 2px;
+}
+.pad3 .multi-range {
+  position: relative;
+  height: 50px;
+}
+.pad3 .multi-range input[type=range] {
+  position: absolute;
+}
+.pad3 .multi-range input[type=range]:nth-child(1)::-webkit-slider-thumb::before {
+  background-color: red;
+}
+.pad3 .multi-range input[type=range]:nth-child(2) {
+  background: none;
+}
+.pad3 .multi-range input[type=range]:nth-child(2)::-webkit-slider-thumb::before {
+  background-color: grey;
+}
+
+.service_cap {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  height: 802px;
+}
+
+.service {
+  position: relative;
+  width: 40%;
+  margin-top: 220px;
+  margin-left: 350px;
+  margin-right: -270px;
+  margin-bottom: 160px;
+  background-color: white;
+}
+.service .arr {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 86%;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 750;
+}
+.service .arr:active {
+  color: gray;
+}
+.service .quarter {
+  width: 13%;
+}
+.service h1 {
+  color: #fff;
+  background-color: black;
+  font-size: 15px;
+  text-align: left;
+}
+.service .morethanhalf {
+  width: 70%;
+}
+.service .half {
+  width: 50%;
+}
+.service h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.service p {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.service .view {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 750;
+  padding-bottom: 35px;
+}
+.service .view:active {
+  color: gray;
+}
+
+.pad4 {
+  margin-top: 200px;
+  border-top: 1px solid black;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+  justify-content: space-between;
+  display: flex;
+}
+.pad4 h1 {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.pad4 .us {
+  color: black;
+  background: none;
+  border: none;
+}
+.pad4 .us:active {
+  color: gray;
+}
+.pad4 .col1 {
+  display: flex;
+}
+.pad4 .part1 {
+  padding-right: 100px;
+}
+.pad4 .part2 {
+  padding-left: 100px;
+}
+.pad4 h3 {
+  padding-left: 30%;
+  color: violet;
+  font-weight: 700;
+  font-size: 20px;
+}
+.pad4 .logo {
+  display: flex;
+}
+.pad4 .logs {
+  font-size: 45px;
+  padding: 20px;
+}
+.pad4 .form-control {
+  padding-top: 50px;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.pad4 .space {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
+.pad4 .subs {
+  background: none;
+  border: none;
+  font-weight: 750;
+  font-size: 20px;
+  padding: 10px;
+}
+.pad4 .subs:active {
+  color: gray;
+}

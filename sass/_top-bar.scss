@@ -1,0 +1,80 @@
+.top-bar{
+    margin : 0 ;
+    width: 100%;
+    display: flex;
+    background-color:#a167b3;
+    justify-content: space-between;
+    height: auto;
+}
+.menu{
+
+    .btn {
+        background-color: #a167b3; /* Blue background */
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 17px 15px; /* Some padding */
+        font-size: 16px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+     
+      .btn:active {
+        color: black;
+      
+       
+      }
+}
+.dashboard-content{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.shop-name p{
+    color: #ffffff;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.pad{
+    margin: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #a167b3;
+
+}
+.top-button{
+    height: 100%;
+}
+.top-button
+{
+button{
+    .badge{
+        color: white;
+        background-color: black;
+        padding: 2px 5px;
+    }
+    display: inline-flex;
+    padding: 0;
+    background:#a167b3 ;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .button__text,
+  .button__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 15px;
+    height: 100%;
+}
+.button:hover{
+    background-color: transparent;
+}
+.button:active{
+    color: black;
+    background-color: transparent;
+}
+
+}

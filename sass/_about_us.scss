@@ -1,0 +1,70 @@
+.pad4{
+    margin-top: 200px;
+   border-top: 1px solid black;
+    padding-top: 100px;
+    padding-left:150px ;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    justify-content: space-between;
+    display: flex;
+    h1{
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .us{
+        color: black;
+        background: none;
+        border: none;
+
+    }
+    .us:active{
+        color: gray;
+    }
+    .col1{
+        display: flex;
+    }
+    .part1{
+        padding-right: 100px;
+    }
+    .part2{
+        padding-left: 100px;
+    }
+    h3{  padding-left: 30%;
+        color: violet;
+        font-weight: 700;
+        font-size: 20px;
+        
+    }
+    .logo{
+        display: flex;
+    }
+    .logs{
+        font-size: 45px;
+        padding: 20px;
+    }
+    .form-control{
+        padding-top: 50px;
+        border: none;
+        box-shadow: none;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .space{
+        display: flex;
+       border-top: 1px solid black;
+      justify-content: space-between;
+
+    }
+    .subs{
+        background: none;
+        border: none;
+        font-weight: 750;
+        font-size: 20px;
+        padding:10px ;
+        
+    }
+    .subs:active{
+        color: gray;
+    }
+}

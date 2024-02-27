@@ -1,0 +1,137 @@
+.pad{
+    margin: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+    background-color: #a167b3;
+
+
+.sub-top{
+    margin : 0 ;
+    width: 100%;
+    display: flex;
+    background-color:#a167b3;
+    justify-content: space-between;
+    height: auto;
+  
+    .side-buttons{
+    
+    padding:0 ;
+    background: #a167b3;
+    border: none;
+    outline: none;
+    color: white;
+   display: flex;
+   .side-buttons__text{
+       padding-right: 15px;
+       font-size: 15px;
+       font-weight: 400;
+   }
+
+}
+.side-buttons:active{
+    color: black;
+}
+.position{
+transform:rotate(-90deg);
+  padding-top: 290px;
+
+}
+.position2{
+    transform:rotate(90deg);  
+    padding-top: 350px;
+}
+
+}
+.got-no-string{
+    padding: 100px 100px 100px 0px;
+    width: 50%;
+    
+
+h1 {
+        color: #fff;
+        background-color: black;
+        font-size: 15px;
+        text-align: left;
+        width: 16%;
+    }
+h2 {
+    color: #fff;
+     font-weight: 1000;
+     font-size: 50px;
+     padding: 10px 0px 15px 0px;
+}
+p{
+    color: #fff;
+    text-align: left;
+    padding: 10px 0px 30px 0px;
+}
+.but-show{
+    display: flex;
+  
+    padding: 10px 0px 50px 0px;
+   
+
+}
+.but-item{
+     color: #fff ; 
+      background: #a167b3;
+      padding: 10px 15px;
+      border: 2px solid white;
+      cursor: pointer;
+
+    
+} 
+ .but-item:active {
+        color: black;
+      
+       
+      }
+  .girl-boy
+    {    position: relative;
+          width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .boy{
+        position: relative;
+        z-index: 1;
+    }
+    .girl{
+        position: relative;
+        z-index: 1;
+    }
+    .play{
+        position: relative;
+        z-index: 2;
+        margin-left: -70%;
+        margin-top: 40px;
+    }
+
+}
+.headphones{
+    width: 50%;
+ 
+    text-align: left;
+    .img-head{
+        width: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+  
+}
+.sub-top12{
+    padding-left: 45%;
+    .numbers{
+        background: #a167b3;
+       color: rgb(192, 192, 192);
+        border: none;
+        font-size: 15px;
+    }
+    .numbers:active{
+         color: white;
+         text-decoration: underline;
+    }
+}
+}

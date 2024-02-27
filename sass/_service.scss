@@ -1,0 +1,78 @@
+.service_cap{
+    display: flex;
+    width: 100%;
+    padding: 0;
+
+    height: 802px;
+    
+}
+.service{
+    position: relative;
+    width: 40%;
+    margin-top:220px ;
+    margin-left: 350px;
+    margin-right: -270px;
+    margin-bottom: 160px;
+    background-color:white ;
+   
+    .arr{
+        padding-top:20px ;
+        padding-bottom: 20px;
+    padding-left:86% ;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 750;
+}
+
+.arr:active{
+color: gray;
+}
+
+
+
+.quarter{
+  width: 13%;
+
+
+}
+
+
+    h1{ 
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    text-align: left;
+    
+}
+.morethanhalf{
+    width: 70%;
+}
+.half{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.view{
+    background: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 750;
+    padding-bottom: 35px;
+}
+.view:active{
+    color: gray;
+    }
+}

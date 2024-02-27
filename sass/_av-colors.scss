@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+}
+.pad1{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: white;
+   
+    .available-colors{
+     justify-content: space-between;
+      display: flex;  
+      padding-bottom: 150px; 
+    }
+h1{
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    text-align: left;
+    width: 45%;
+}
+h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 40px;
+    padding: 10px 0px 15px 0px;
+
+}
+
+.butoane-casca{
+   
+    display: flex;
+  
+}
+.catalogue{
+    width: 40%;
+    padding-bottom: 40px;
+    .buton-catalogue{
+        .full-catalogue{
+            color:black ; 
+            background: white;
+           
+            border: 2px solid white;
+            cursor: pointer;
+    }
+    .full-catalogue:active{
+        color: white;
+    }
+    }
+}
+.colors{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);;
+   display: flex;
+   
+   .negru{
+    position: relative;
+    z-index: 2;
+}
+.cerc-negru{
+    position: relative;
+    z-index: 1;
+    margin-left: -52%;
+    margin-top: 0px;
+    width: 75px;
+}
+.gloss{
+    position: relative;
+    z-index: 1;
+    margin-left: -60%;
+}
+ .mini-pad{
+  padding: 10px;
+ }
+   .rand{
+       display: flex;
+   }
+}
+
+.position3{
+       
+        transform:rotate(-90deg);
+       padding-top: 300px;
+       
+} 
+.position4{
+    
+        transform:rotate(90deg);
+        padding-top: 270px;
+} 
+  .side-buttons1{
+         
+            
+            padding:0 ;
+            background: white;
+            border: none;
+            outline: none;
+            color: black;
+           display: flex;
+           .side-buttons1__text{
+               padding-right: 15px;
+               font-size: 15px;
+               font-weight: 500;
+            
+           }
+}
+.side-buttons1:active{
+    color: white;
+}
+.but1234{
+    display: flex;
+    padding-left: 45%;
+    .numbers{
+        background: white;
+       color: rgb(192, 192, 192);
+        border: none;
+        font-size: 15px;
+    }
+    .numbers:active{
+         color: black;
+         text-decoration: underline black;
+    }
+}
+}
